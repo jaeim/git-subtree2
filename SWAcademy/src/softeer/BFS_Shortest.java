@@ -1,7 +1,13 @@
 package softeer;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
+import java.util.TreeMap;
 /*
  * [프로그래머스] 게임 맵 최단거리 (가중치가 0과 1인 경우) // 가중치가 숫자면 다익스트라 알고리즘
  * https://school.programmers.co.kr/learn/courses/30/lessons/1844
@@ -38,7 +44,9 @@ public class BFS_Shortest {
 	static int[] dy = {1,0,-1,0}; 
 	
 	public static void bfs(int[][] maps, int[][] visited, int n, int m) {
+		ArrayList<Integer> a = new ArrayList<Integer>();
 
+        Collections.sort(a, (o1, o2)->)
 		// 목적지는 (n-1, m-1);
 		int x = 0;
 		int y = 0;
