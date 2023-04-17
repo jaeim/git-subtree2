@@ -44,9 +44,6 @@ public class BFS_Shortest {
 	static int[] dy = {1,0,-1,0}; 
 	
 	public static void bfs(int[][] maps, int[][] visited, int n, int m) {
-		ArrayList<Integer> a = new ArrayList<Integer>();
-
-        Collections.sort(a, (o1, o2)->)
 		// 목적지는 (n-1, m-1);
 		int x = 0;
 		int y = 0;
