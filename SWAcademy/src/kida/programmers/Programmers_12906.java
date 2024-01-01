@@ -22,7 +22,7 @@ public class Programmers_12906 {
 				tmp = arr[i];
 			}
 		}
-		int[] answer = new int[list.size();
+		int[] answer = new int[list.size()];
 		for(int i = 0; i < answer.length; i++) {
 			answer[i] = list.get(i);
 		}
